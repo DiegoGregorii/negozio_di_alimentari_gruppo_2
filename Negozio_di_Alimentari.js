@@ -15,7 +15,7 @@ class NegozioAlimentari {
 	}
 	calcolaValoreProdotti() {
 		let val = 0;
-		for(let i = 0; i < this.prodotti.length; i++) {
+		for (let i = 0; i < this.prodotti.length; i++) {
 			val += this.prodotti[i].quantita * this.prodotti[i].prezzo;
 		}
 		document.write(val + "<br>");
